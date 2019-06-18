@@ -9,6 +9,7 @@
 - Fluent Validator
 - JWT
 - Swagger
+- EF Core
 
 #### Front-end
 - VueJS 2
