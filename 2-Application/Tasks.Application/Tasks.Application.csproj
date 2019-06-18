@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\CartoesDeCredito\**" />
+    <Compile Remove="Services\Duplicatas\**" />
+    <EmbeddedResource Remove="Services\CartoesDeCredito\**" />
+    <EmbeddedResource Remove="Services\Duplicatas\**" />
+    <None Remove="Services\CartoesDeCredito\**" />
+    <None Remove="Services\Duplicatas\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.4.0" />
+    <PackageReference Include="NETCore.Encrypt" Version="2.0.7" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\4-Infra\Tasks.Data\Tasks.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,46 @@
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }   
+    #wrapper, #content {
+      width: auto;
+      border: 0;
+      padding: 0 !important;
+      margin: 0 !important;
+      float: none !important;
+      }
+      @page {size:landscape;}
+
+      .table th, .table td {
+        padding: 0;
+    }
+
+    table.b-table > thead > tr > th.sorting::after, 
+    table.b-table > tfoot > tr > th.sorting::after,table.b-table > thead > tr > th.sorting::before, table.b-table > tfoot > tr > th.sorting::before{
+      content: none;
+    }
+
+    .row{
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    #NomeRelatorio{
+      display: contents !important; 
+    }
+
+    body{
+      font-size: 0.60rem !important; 
+      page-break-inside: avoid;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .container-fluid{
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    
+
+}
