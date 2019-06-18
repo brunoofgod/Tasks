@@ -19,7 +19,7 @@
 
 ## Instalação
 
-
+Front-end | http://localhost:8080
 ```sh
 git clone https://github.com/brunoofgod/Tasks.git
 cd Tasks/9-Templates/Tasks/
@@ -27,8 +27,7 @@ npm install
 npm run serve
 ```
 
-WEB API:
-
+WEB API | http://localhost:57357
 ```sh
 cd Tasks/0-Presentations/0.1-WebApi/Tasks.WebApi
 dotnet build
