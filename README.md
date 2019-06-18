@@ -1,6 +1,5 @@
 # Tasks
- > Projeto armazenador de tasks.
-
+> Projeto armazenador de tasks Utilizando do conceito API REST com a arquitetura de desenvolvimento DDD(Domain Driven Design) em .NET Core.
 
 ## Técnologias
 #### Back-end
